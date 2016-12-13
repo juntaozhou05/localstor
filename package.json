@@ -1,0 +1,19 @@
+{
+  "name": "localstor",
+  "version": "0.1.2",
+  "description": "localstor version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juntaozhou05/localstor.git"
+  },
+  "author": "juntaozhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juntaozhou05/localstor/issues"
+  },
+  "homepage": "https://github.com/juntaozhou05/localstor#readme"
+}
