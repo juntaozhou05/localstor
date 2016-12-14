@@ -7,7 +7,6 @@
 	//引入css：  
 	local.load.loadCss(name, url, version); 
  
-
 ###参数说明  
 name:引入文件的名称  
 url:引入文件的路径  
