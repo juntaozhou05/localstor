@@ -1,6 +1,10 @@
 # localstor
 ---
 ###实现本地存储js和css文件,当js或css文件有改动时才重新加载文件,可以有效减少http请求次数，加快页面的响应时间。
+
+###安装方法：
+	$npm install localstor --save
+
 ###入口方法：
 	//引入js：     
 	local.load.loadJs(name, url, version, callback);  
