@@ -1,14 +1,14 @@
 # localstor
 ---
-###实现本地存储js和css文件,当js或css文件有改动时才重新加载文件,可以有效减少http请求次数，加快页面的响应时间。
-###入口方法：
+### 实现本地存储js和css文件,当js或css文件有改动时才重新加载文件,可以有效减少http请求次数，加快页面的响应时间。
+### 入口方法：
 	//引入js：     
 	local.load.loadJs(name, url, version, callback);  
 	//引入css：  
 	local.load.loadCss("css", "css/app.css", 1); 
  
 
-###参数说明  
+### 参数说明  
 name:引入文件的名称  
 url:引入文件的路径  
 version:文件版本号  
