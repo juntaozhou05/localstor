@@ -1,76 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	
-</head>
-<body>
-	<div id="box1">12345</div>
-</body>
-<script src="js/localstor.js"></script>
-<script type="text/javascript">  
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="box1">12345</div>
+  </body>
+  <script src="js/localstor.js"></script>
+  <script type="text/javascript">
     //入口配置
-    local.load.loadJs("jquery", "js/jquery.min.js",1,  
-     function () { 
-         local.load.loadJs("app", "js/app.js",1, function() {
-            local.load.loadJs("index", "js/index.js",2,null);
-         });  
-     });  
-    local.load.loadCss("css", "css/app.css", 1);  
-</script>
+    local.load.loadJs("jquery", "js/jquery.min.js", 2, function() {
+      local.load.loadJs("app", "js/app.js", 1, function() {
+        local.load.loadJs("index", "js/index.js", 2, null);
+      });
+    });
+    local.load.loadCss("css", "css/app.css", 1);
+  </script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
